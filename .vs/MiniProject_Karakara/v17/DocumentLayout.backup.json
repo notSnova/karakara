@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79C138F5-7049-4069-83F6-A39D05085807}|MiniProject_Karakara\\MiniProject_Karakara.csproj|d:\\microsoft visual studio\\repos\\miniproject_karakara\\miniproject_karakara\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{79C138F5-7049-4069-83F6-A39D05085807}|MiniProject_Karakara\\MiniProject_Karakara.csproj|solutionrelative:miniproject_karakara\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C138F5-7049-4069-83F6-A39D05085807}|MiniProject_Karakara\\MiniProject_Karakara.csproj|d:\\microsoft visual studio\\repos\\miniproject_karakara\\miniproject_karakara\\productpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C138F5-7049-4069-83F6-A39D05085807}|MiniProject_Karakara\\MiniProject_Karakara.csproj|solutionrelative:miniproject_karakara\\productpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C138F5-7049-4069-83F6-A39D05085807}|MiniProject_Karakara\\MiniProject_Karakara.csproj|d:\\microsoft visual studio\\repos\\miniproject_karakara\\miniproject_karakara\\productpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{79C138F5-7049-4069-83F6-A39D05085807}|MiniProject_Karakara\\MiniProject_Karakara.csproj|solutionrelative:miniproject_karakara\\productpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C138F5-7049-4069-83F6-A39D05085807}|MiniProject_Karakara\\MiniProject_Karakara.csproj|d:\\microsoft visual studio\\repos\\miniproject_karakara\\miniproject_karakara\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{79C138F5-7049-4069-83F6-A39D05085807}|MiniProject_Karakara\\MiniProject_Karakara.csproj|solutionrelative:miniproject_karakara\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C138F5-7049-4069-83F6-A39D05085807}|MiniProject_Karakara\\MiniProject_Karakara.csproj|D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\miniproject_karakara\\styles\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{79C138F5-7049-4069-83F6-A39D05085807}|MiniProject_Karakara\\MiniProject_Karakara.csproj|solutionrelative:miniproject_karakara\\styles\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C138F5-7049-4069-83F6-A39D05085807}|MiniProject_Karakara\\MiniProject_Karakara.csproj|D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\miniproject_karakara\\cartpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{79C138F5-7049-4069-83F6-A39D05085807}|MiniProject_Karakara\\MiniProject_Karakara.csproj|solutionrelative:miniproject_karakara\\cartpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C138F5-7049-4069-83F6-A39D05085807}|MiniProject_Karakara\\MiniProject_Karakara.csproj|D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\miniproject_karakara\\cartpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C138F5-7049-4069-83F6-A39D05085807}|MiniProject_Karakara\\MiniProject_Karakara.csproj|solutionrelative:miniproject_karakara\\cartpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C138F5-7049-4069-83F6-A39D05085807}|MiniProject_Karakara\\MiniProject_Karakara.csproj|D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\miniproject_karakara\\orderhistorypage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{79C138F5-7049-4069-83F6-A39D05085807}|MiniProject_Karakara\\MiniProject_Karakara.csproj|solutionrelative:miniproject_karakara\\orderhistorypage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductPage.aspx.cs",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\MiniProject_Karakara\\ProductPage.aspx.cs",
+              "RelativeDocumentMoniker": "MiniProject_Karakara\\ProductPage.aspx.cs",
+              "ToolTip": "D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\MiniProject_Karakara\\ProductPage.aspx.cs",
+              "RelativeToolTip": "MiniProject_Karakara\\ProductPage.aspx.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T08:48:37.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductPage.aspx",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\MiniProject_Karakara\\ProductPage.aspx",
+              "RelativeDocumentMoniker": "MiniProject_Karakara\\ProductPage.aspx",
+              "ToolTip": "D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\MiniProject_Karakara\\ProductPage.aspx",
+              "RelativeToolTip": "MiniProject_Karakara\\ProductPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-28T08:48:11.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomePage.aspx",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\MiniProject_Karakara\\HomePage.aspx",
+              "RelativeDocumentMoniker": "MiniProject_Karakara\\HomePage.aspx",
+              "ToolTip": "D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\MiniProject_Karakara\\HomePage.aspx",
+              "RelativeToolTip": "MiniProject_Karakara\\HomePage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-28T08:37:33.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MasterPage.Master",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\MiniProject_Karakara\\MasterPage.Master",
+              "RelativeDocumentMoniker": "MiniProject_Karakara\\MasterPage.Master",
+              "ToolTip": "D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\MiniProject_Karakara\\MasterPage.Master",
+              "RelativeToolTip": "MiniProject_Karakara\\MasterPage.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-27T18:26:38.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderHistoryPage.aspx",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\MiniProject_Karakara\\OrderHistoryPage.aspx",
+              "RelativeDocumentMoniker": "MiniProject_Karakara\\OrderHistoryPage.aspx",
+              "ToolTip": "D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\MiniProject_Karakara\\OrderHistoryPage.aspx",
+              "RelativeToolTip": "MiniProject_Karakara\\OrderHistoryPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-27T18:24:02.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartPage.aspx.cs",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\MiniProject_Karakara\\CartPage.aspx.cs",
+              "RelativeDocumentMoniker": "MiniProject_Karakara\\CartPage.aspx.cs",
+              "ToolTip": "D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\MiniProject_Karakara\\CartPage.aspx.cs",
+              "RelativeToolTip": "MiniProject_Karakara\\CartPage.aspx.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAIwIAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T12:45:44.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartPage.aspx",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\MiniProject_Karakara\\CartPage.aspx",
+              "RelativeDocumentMoniker": "MiniProject_Karakara\\CartPage.aspx",
+              "ToolTip": "D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\MiniProject_Karakara\\CartPage.aspx",
+              "RelativeToolTip": "MiniProject_Karakara\\CartPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-27T12:55:47.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StyleSheet.css",
+              "DocumentMoniker": "D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\MiniProject_Karakara\\Styles\\StyleSheet.css",
+              "RelativeDocumentMoniker": "MiniProject_Karakara\\Styles\\StyleSheet.css",
+              "ToolTip": "D:\\Microsoft Visual Studio\\repos\\MiniProject_Karakara\\MiniProject_Karakara\\Styles\\StyleSheet.css",
+              "RelativeToolTip": "MiniProject_Karakara\\Styles\\StyleSheet.css",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADgCAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-26T10:00:37.255Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
