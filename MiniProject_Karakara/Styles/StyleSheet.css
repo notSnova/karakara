@@ -475,7 +475,6 @@ section {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     min-height: 60vh;
     max-height: 100vh;
 }
@@ -587,5 +586,104 @@ section {
     outline: none;
 }
 
+/* Order History Page*/
+.order-history-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
 
+.order-history-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.order-history-container h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.order-number {
+    font-weight: bold;
+}
+
+.order-date {
+    font-size: 0.8em; /* smaller font */
+    color: #777777; /* greyish */
+    font-weight: normal; /* lighter font weight */
+}
+
+.order-history-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    padding: 20px;
+    width: 600px;
+    margin: 0 auto;
+    transition: transform 0.2s ease;
+}
+
+.order-history-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.order-summary {
+    margin: 10px 10px 2px 10px;
+    padding: 0;
+}
+
+.order-summary p {
+    text-align: right;
+    margin: 0 0 5px 0;
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.order-table th, .order-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.order-separator {
+    display: none;
+}
+
+.shop-now-button {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #E69DB8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.shop-now-button:hover {
+    background-color: #B36A85;
+}
 

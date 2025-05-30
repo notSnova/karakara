@@ -35,7 +35,7 @@ namespace MiniProject_Karakara
 
             using (SqlConnection conn = new SqlConnection(dbConn))
             {
-                string query = "SELECT role FROM Users WHERE username = @username AND password = @password";
+                string query = "SELECT role,Id FROM Users WHERE username = @username AND password = @password";
                 SqlCommand cmd = new SqlCommand(query, conn);
                 cmd.Parameters.AddWithValue("@username", username);
                 cmd.Parameters.AddWithValue("@password", hashedPassword);
@@ -50,6 +50,7 @@ namespace MiniProject_Karakara
                         // success
                         Session["username"] = username;
                         Session["role"] = reader["role"];
+                        Session["userId"] = reader["Id"];
                         Response.Redirect("ProductPage.aspx");
                     }
                     else

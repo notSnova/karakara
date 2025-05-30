@@ -7,7 +7,7 @@
     <title>Karakara</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <link href="~/Styles/StyleSheet.css?<%= DateTime.Now.Ticks %>" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/StyleSheet.css?1" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">

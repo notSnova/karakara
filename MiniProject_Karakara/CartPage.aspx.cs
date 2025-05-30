@@ -26,9 +26,28 @@ namespace MiniProject_Karakara
             }
         }
 
+        protected void gvCart_RowDeleting(object sender, GridViewDeleteEventArgs e)
+        {
+            // call the method for deletion of items
+            string productName = gvCart.DataKeys[e.RowIndex].Values["ProductName"].ToString();
+            string quantity = gvCart.DataKeys[e.RowIndex].Values["Quantity"].ToString();
+            Session["CartDeletedItem"] = $"x{quantity} <strong>{productName}</strong> has been removed from your cart.";
+        }
+
         protected void gvCart_Deleted(object sender, GridViewDeletedEventArgs e)
         {
             // call the method after deletion of items
+            if (Session["CartDeletedItem"] != null)
+            {
+                string cartDeletedItem = Session["CartDeletedItem"].ToString();
+                lblMessage.Text = cartDeletedItem;
+                lblMessage.ForeColor = System.Drawing.Color.Green;
+                Session.Remove("CartDeletedItem"); 
+            }
+            else
+            {
+                lblMessage.Text = "Item removed from your cart.";
+            }
             CartSummary();
         }
 
@@ -126,6 +145,7 @@ namespace MiniProject_Karakara
                 clearCartCmd.ExecuteNonQuery();
 
                 conn.Close();
+                Session["order-added"] = "Your order " + orderNumber + " has been confirmed!";
                 Response.Redirect("OrderHistoryPage.aspx");
             }
         }

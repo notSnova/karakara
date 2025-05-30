@@ -4,6 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="cart-wrapper">
         <h2>Your Cart</h2>
+        <asp:Label ID="lblMessage" runat="server" CssClass="message" Style="text-align: center; padding-bottom: 10px;" EnableViewState="false" />
 
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnKarakara %>" 
                            SelectCommand="GetUserCart" 
@@ -23,9 +24,10 @@
                       DataSourceID="SqlDataSource1"
                       AllowPaging="True" 
                       PageSize="5"
+                      OnRowDeleting="gvCart_RowDeleting"
                       OnRowDeleted="gvCart_Deleted"
                       PagerStyle-CssClass="cart-pager" 
-                      DataKeyNames="CartID">
+                      DataKeyNames="CartID,ProductName, Quantity">
             <Columns>
                 <asp:TemplateField HeaderText="No.">
                     <ItemTemplate>
