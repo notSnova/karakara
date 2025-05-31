@@ -90,6 +90,8 @@
     <Content Include="Images\Rounded_Marble_Table.png" />
     <Content Include="Images\Square_Marble_Table.png" />
     <Content Include="LoginPage.aspx" />
+    <Content Include="ManageProductPage.aspx" />
+    <Content Include="ManageUserPage.aspx" />
     <Content Include="OrderHistoryPage.aspx" />
     <Content Include="ProductPage.aspx" />
     <Content Include="RegisterPage.aspx" />
@@ -117,6 +119,20 @@
     </Compile>
     <Compile Include="LoginPage.aspx.designer.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageProductPage.aspx.cs">
+      <DependentUpon>ManageProductPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageProductPage.aspx.designer.cs">
+      <DependentUpon>ManageProductPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ManageUserPage.aspx.cs">
+      <DependentUpon>ManageUserPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageUserPage.aspx.designer.cs">
+      <DependentUpon>ManageUserPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>

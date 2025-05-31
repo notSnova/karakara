@@ -33,6 +33,15 @@ namespace MiniProject_Karakara
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// customerLinks control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl customerLinks;
+
+        /// <summary>
         /// navHide control.
         /// </summary>
         /// <remarks>
@@ -40,6 +49,15 @@ namespace MiniProject_Karakara
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl navHide;
+
+        /// <summary>
+        /// adminLinks control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl adminLinks;
 
         /// <summary>
         /// btnAuth control.

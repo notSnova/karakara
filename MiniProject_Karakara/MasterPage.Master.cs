@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -15,8 +16,25 @@ namespace MiniProject_Karakara
             {
                 if (Session["username"] != null)
                 {
+                    string role = Session["role"].ToString();
                     navHide.Visible = true;
                     btnAuth.Text = "Sign Out";
+
+                    if (role == "admin")
+                    {
+                        adminLinks.Visible = true;
+                        customerLinks.Visible = false;
+                    }
+                    else if (role == "customer")
+                    {
+                        adminLinks.Visible = false;
+                        customerLinks.Visible = true;
+                    }
+                    else
+                    {
+                        adminLinks.Visible = false;
+                        customerLinks.Visible = false;
+                    }
                 }
                 else
                 {

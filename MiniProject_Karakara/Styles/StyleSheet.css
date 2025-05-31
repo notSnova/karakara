@@ -687,3 +687,130 @@ section {
     background-color: #B36A85;
 }
 
+/* Manage Users Page */
+.manage-users-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.manage-users-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    max-width: 150vh;
+    width: 100%;
+}
+
+.manage-users-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    padding: 25px;
+    width: 100%;
+    margin: 0 auto;
+    transition: transform 0.2s ease;
+}
+
+.manage-users-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+.manage-users-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gridview-container .gridview {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.gridview-container .gridview th,
+.gridview-container .gridview td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.gridview-container .gridview th {
+    background-color: #f1f1f1;
+}
+
+.grid-btn {
+    background-color: #84AE92;
+    color: white;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 0.9em;
+    transition: background-color 0.2s ease;
+}
+
+.grid-btn:hover {
+    background-color: #6e947a;
+}
+
+.grid-btn:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+/* Manage Products Page */
+.manage-products-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.manage-products-container {
+    width: 80%;
+    max-width: 100%;
+}
+
+.manage-products-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.manage-products-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gridview {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.gridview th, .gridview td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.gridview .button {
+    background-color: #84AE92;
+    color: white;
+    padding: 6px 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+    .gridview .button:hover {
+        background-color: #6e947a;
+    }

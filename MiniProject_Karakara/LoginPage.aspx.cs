@@ -51,7 +51,17 @@ namespace MiniProject_Karakara
                         Session["username"] = username;
                         Session["role"] = reader["role"];
                         Session["userId"] = reader["Id"];
-                        Response.Redirect("ProductPage.aspx");
+
+                        string role = reader["role"].ToString().ToLower();
+
+                        if (role == "admin")
+                        {
+                            Response.Redirect("ManageUserPage.aspx");
+                        }
+                        else if (role == "customer")
+                        {
+                            Response.Redirect("ProductPage.aspx");
+                        }
                     }
                     else
                     {
