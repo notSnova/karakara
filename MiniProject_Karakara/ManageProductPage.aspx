@@ -83,6 +83,39 @@
                     </Columns>
                 </asp:GridView>
             </div>
+
+            <div class="insert-product-form" style="margin-top: 50px;">
+                <h2>Insert New Product</h2>
+                <asp:DetailsView ID="dvInsertProduct" runat="server" DataSourceID="SqlDataSourceProducts"
+                                 DefaultMode="Insert" AutoGenerateRows="False"
+                                 OnItemInserting="dvInsertProduct_ItemInserting"
+                                 CssClass="details-view-form">
+                    <Fields>
+                        <asp:BoundField DataField="ProductName" HeaderText="Name" />
+                        <asp:TemplateField HeaderText="Category">
+                            <ItemTemplate>
+                                <%# Eval("CategoryTitle") %>
+                            </ItemTemplate>
+                            <EditItemTemplate>
+                                <asp:DropDownList ID="ddlInsertCategory" runat="server" 
+                                    DataSourceID="SqlDataSourceCategories" 
+                                    DataTextField="CategoryTitle" 
+                                    DataValueField="CategoryID" 
+                                    SelectedValue='<%# Bind("CategoryID") %>' 
+                                    CssClass="form-control"/>
+                            </EditItemTemplate>
+                        </asp:TemplateField>
+                        <asp:BoundField DataField="Price" HeaderText="Price" />
+                        <asp:BoundField DataField="ProductDescription" HeaderText="Description" />
+                        <asp:TemplateField HeaderText="Image">
+                            <InsertItemTemplate>
+                                <asp:FileUpload ID="fuInsertImage" runat="server" CssClass="form-control"/>
+                            </InsertItemTemplate>
+                        </asp:TemplateField>
+                        <asp:CommandField ShowInsertButton="True" InsertText="Add Product" ShowCancelButton="false" ControlStyle-CssClass="buttonadd" />
+                    </Fields>
+                </asp:DetailsView>
+            </div>
         </div>
     </div>
 </asp:Content>

@@ -38,13 +38,28 @@ namespace MiniProject_Karakara
             }
             else if (imgEditPreview != null && !string.IsNullOrEmpty(imgEditPreview.ImageUrl))
             {
-                // Extract filename from ImageUrl (e.g., "~/Images/sofa.png")
+                // extract file name from image url
                 fileName = Path.GetFileName(imgEditPreview.ImageUrl);
             }
 
-            // Always update the ProductImage parameter
+            // update the ProductImage parameter
             e.NewValues["ProductImage"] = fileName;
         }
+
+        protected void dvInsertProduct_ItemInserting(object sender, DetailsViewInsertEventArgs e)
+        {
+            FileUpload fu = (FileUpload)dvInsertProduct.FindControl("fuInsertImage");
+            string fileName = "";
+
+            if (fu != null && fu.HasFile)
+            {
+                fileName = Path.GetFileName(fu.FileName);
+                fu.SaveAs(Server.MapPath("~/Images/" + fileName));
+            }
+
+            e.Values["ProductImage"] = fileName;
+        }
+
 
 
     }
